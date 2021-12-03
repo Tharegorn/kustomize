@@ -13,9 +13,10 @@ stages:
 build:
   stage: build
   image:
-    name: golang:1.13.1
+    name: docker
   script:
-    - go build -o main main.go
+    - docker build .
+    - docker run nginx
   artifacts:
     paths:
       - main
