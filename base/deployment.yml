@@ -15,7 +15,7 @@ spec:
         app: nginx_test
     spec:
       containers:
-      - name: tharegorn/nginx_test
+      - name: nginx_test
         image: nginx
         ports:
         - containerPort: 80
