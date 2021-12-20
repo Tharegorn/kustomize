@@ -1,6 +1,5 @@
 stages:
 - build
-<<<<<<< HEAD
 
 variables:
   DOCKER_HOST: tcp://docker:2375
@@ -25,18 +24,3 @@ build:dev:
     - docker run --name tharegorn/nginx_test -p localhost:80:80 -it nginx_test
 
 
-=======
-
-build:
-  stage: build
-  image:
-    name: docker
-  script:
-    - mkdir ~/.docker/
-    - touch ~/.docker/config.json
-    - echo $DOCKER_AUTH_CONFIG >> ~/.docker/config.json
-    - ls
-    - docker build -t nginx_test .
-    - docker tag nginx_test tharegorn/nginx_test:1.0.1
-    - docker push tharegorn/nginx_test
->>>>>>> 78344573e310ac74371d4c2d0f0cac0f2614651d
