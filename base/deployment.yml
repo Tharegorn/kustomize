@@ -17,5 +17,6 @@ spec:
       containers:
       - name: nginx-test
         image: tharegorn/nginx_test:1.0.1
+        imagePullPolicy: always
         ports:
         - containerPort: 80
