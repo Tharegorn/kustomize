@@ -17,7 +17,7 @@ build:
     - mkdir ~/.docker/
     - touch ~/.docker/config.json
     - echo $DOCKER_AUTH_CONFIG >> ~/.docker/config.json
-build:dev:
+build-dev:
   stage: build
   image: tharegorn/nginx_test
   dependencies:
