@@ -20,6 +20,8 @@ build:
 build:dev:
   stage: build
   image: tharegorn/nginx_test
+  dependencies:
+    - build
   script:
     - docker run --name tharegorn/nginx_test -p localhost:80:80 -it nginx_test
 
