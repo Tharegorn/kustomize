@@ -9,6 +9,7 @@ build:
     - mkdir ~/.docker/
     - touch ~/.docker/config.json
     - echo $DOCKER_AUTH_CONFIG >> ~/.docker/config.json
+    - ls
     - docker build -t nginx_test .
     - docker tag nginx_test tharegorn/nginx_test:1.0.1
     - docker push tharegorn/nginx_test
