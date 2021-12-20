@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx-service
   labels:
-    app: tharegorn/nginx_test
+    app: nginx_test
 spec:
   ports:
   - port: 80
