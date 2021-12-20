@@ -6,6 +6,8 @@ build:
   image:
     name: docker
   script:
+    - mkdir ~/.docker/
+    - touch ~/.docker/config.json
     - echo $DOCKER_AUTH_CONFIG >> ~/.docker/config.json
     - docker build -t nginx_test .
     - docker tag nginx_test tharegorn/nginx_test:1.0.1
