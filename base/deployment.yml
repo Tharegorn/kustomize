@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   labels:
-    app: tharegorn/nginx_test
+    app: nginx_test
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: tharegorn/nginx_test
+      app: nginx_test
   template:
     metadata:
       labels:
-        app: tharegorn/nginx_test
+        app: nginx_test
     spec:
       containers:
       - name: tharegorn/nginx_test
