@@ -13,7 +13,7 @@ namespace: dev
 secretGenerator:
   - name: regcred
     files:
-      - ./config.json
+      - ./config.yml
 images:
 - name: backend-app
   newName: tharegorn/nginx_test
