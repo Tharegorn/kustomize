@@ -9,6 +9,13 @@ resources:
 - namespace.yml
 - ../../base
 namespace: dev
+
+secretGenerator:
+  - name: regcred
+    files:
+      - secrets/regcred
+    type: kubernetes.io/dockerconfigjson
+
 images:
 - name: backend-app
   newName: tharegorn/nginx_test
