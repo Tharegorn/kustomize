@@ -13,5 +13,5 @@ images:
 - name: backend-app
   newName: tharegorn/nginx_test
   newTag: 2c7f661c
-imagePullSecrets:
-  - name: regcred
+  imagePullSecrets:
+    - name: regcred
