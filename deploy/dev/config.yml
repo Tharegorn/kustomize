@@ -3,9 +3,8 @@ data:
   .dockerconfigjson: ewoJImF1dGhzIjogewoJCSJodHRwczovL2luZGV4LmRvY2tlci5pby92MS8iOiB7CgkJCSJhdXRoIjogImRHaGhjbVZuYjNKdU9sTndOU3BaWlZsTVFESWtUU00zS2pKSUpIRndRbkFsWnlFMFZ5TXpjbVpLZVRJPSIKCQl9Cgl9Cn0=
 kind: Secret
 metadata:
-  creationTimestamp: "2021-12-22T08:21:23Z"
   name: regcred
-  namespace: default
+  namespace: dev
   resourceVersion: "39136"
   uid: 8e3b64e5-90c0-401f-9db3-c2712c13c480
 type: kubernetes.io/dockerconfigjson
