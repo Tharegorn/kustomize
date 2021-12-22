@@ -10,10 +10,6 @@ resources:
 - ../../base
 namespace: dev
 
-secretGenerator:
-  - name: regcred
-    files:
-      - ./config.yml
 images:
 - name: backend-app
   newName: tharegorn/nginx_test
