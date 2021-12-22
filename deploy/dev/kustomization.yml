@@ -18,5 +18,3 @@ images:
 - name: backend-app
   newName: tharegorn/nginx_test
   newTag: latest
-secretRef:
-  name: regcred
