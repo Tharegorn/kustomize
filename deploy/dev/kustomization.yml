@@ -13,7 +13,7 @@ namespace: dev
 secretGenerator:
   - name: regcred
     files:
-      - ./.dockerconfigjson
+      - ./config.json
     type: kubernetes.io/dockerconfigjson
 
 images:
