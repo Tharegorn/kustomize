@@ -14,8 +14,6 @@ secretGenerator:
   - name: regcred
     files:
       - ./config.json
-    type: kubernetes.io/dockerconfigjson
-
 images:
 - name: backend-app
   newName: tharegorn/nginx_test
