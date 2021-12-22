@@ -18,6 +18,6 @@ spec:
       - name: nginx-test
         image: backend-app
         imagePullPolicy: Always
-        imagePullSecrets: regcred
+        imagePullSecret: regcred
         ports:
         - containerPort: 80
