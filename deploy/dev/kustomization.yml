@@ -17,4 +17,4 @@ secretGenerator:
 images:
 - name: backend-app
   newName: tharegorn/nginx_test
-  newTag: latest
+  newTag: 2c7f661c
