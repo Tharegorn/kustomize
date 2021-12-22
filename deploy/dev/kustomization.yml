@@ -9,10 +9,6 @@ resources:
 - namespace.yml
 - ../../base
 namespace: dev
-secretGenerator:
-- name : docker-login
-  files:
-  - regcred
 images:
 - name: backend-app
   newName: tharegorn/nginx_test
