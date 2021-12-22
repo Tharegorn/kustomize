@@ -3,4 +3,4 @@ kind: Deployment
 metadata:
   name: nginx-deployment # necessary for Kustomize identification
 spec:
-  replicas: 700
+  replicas: 2
