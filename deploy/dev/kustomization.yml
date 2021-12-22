@@ -8,7 +8,7 @@ commonLabels:
 resources:
 - namespace.yml
 - ../../base
-namespace: dev
+namespace: default
 
 secretGenerator:
   - name: regcred
@@ -16,5 +16,5 @@ secretGenerator:
       - ./config.yml
 images:
 - name: backend-app
-  newName: nginx
+  newName: tharegorn/nginx_test
   newTag: latest
