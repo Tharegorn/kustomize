@@ -13,4 +13,4 @@ namespace: dev
 images:
 - name: backend-app
   newName: tharegorn/nginx_test
-  newTag: 2c7f661c
+  newTag: d4a5819c
