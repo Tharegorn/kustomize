@@ -12,5 +12,5 @@ namespace: dev
 
 images:
 - name: backend-app
-  newName: nginx
+  newName: node
   newTag: latest
