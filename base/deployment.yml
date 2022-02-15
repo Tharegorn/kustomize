@@ -14,8 +14,8 @@ spec:
       labels:
         app: nginx_test
     spec:
-      imagePullSecrets:
-      - name: regcred
+      # imagePullSecrets:
+      # - name: regcred
       containers:
       - name: nginx-test
         image: backend-app
