@@ -16,5 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-test
+        image: nginx_test
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
