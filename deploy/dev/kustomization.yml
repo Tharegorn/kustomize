@@ -13,3 +13,6 @@ images:
 - name: nginx_test
   newName: tharegorn/nginx_test
   newTag: 7b85f6e5
+- name: nginx_test-app
+  newName: tharegorn/nginx_test
+  newTag: fb25c704
