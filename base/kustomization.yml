@@ -3,7 +3,3 @@ kind: Kustomization
 resources:
 - deployment.yml
 - service.yml
-images:
-- name: nginx_test-app
-  newName: tharegorn/nginx_test
-  newTag: fb25c704
