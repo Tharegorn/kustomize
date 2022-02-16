@@ -12,7 +12,4 @@ namespace: dev
 images:
 - name: nginx_test
   newName: tharegorn/nginx_test
-  newTag: fb25c704
-- name: nginx_test-app
-  newName: tharegorn/nginx_test
   newTag: a2ef564d
